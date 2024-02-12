@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('checkout stage') {
       steps {
-        sh 'rm -rf Ansible'
+        sh 'rm -rf GrafanaNew'
         sh 'git clone https://github.com/Nethravathi-R/GrafanaNew.git'
       }
     }
